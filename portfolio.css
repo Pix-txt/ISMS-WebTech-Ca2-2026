@@ -1,0 +1,234 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+    color: #000000;
+    font-family: monospace;
+    margin: 0px;
+    height: auto;
+    opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    height: 3vw;
+    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+    text-indent: 11vw;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+header ul{
+    font-size: 1vi;
+    font-weight: bolder;
+    display: flex;
+    list-style: none;
+    margin-top: 1vw;
+}
+
+fieldset{
+    width:50%;
+    margin: auto;
+}
+
+footer{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    display: flex;
+    height: 3vw;
+    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+    text-indent: 17vw;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+#footerform{
+    bottom: -50%;
+}
+
+footer ul{
+    font-size: 1vi;
+    font-weight: bolder;
+    display: flex;
+    list-style: none;
+}
+
+legend{
+    font-size: 2vmax;
+    background-color:  rgb(200, 213, 236);
+    font-weight: bolder;
+    border-radius: 200vw;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    height: 3vh;
+}
+
+#formbody{
+    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+    color: #000000;
+    height: 150vh;
+}
+
+fieldset{
+    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+    text-align: center;
+    height: auto;
+    font-size: 2vmax;
+    line-height: 5vh;
+    border-radius: 2vw;
+    box-shadow: 3px 3px 15px #10135c;
+    width: 80vmin;
+    border-width: 0px;
+    margin-top: 30px;
+}
+
+textarea{
+    width: 50vi;
+    height: 10vw;
+    font-size: 1.5vi;
+    border-radius: 20px;
+    padding: 20PX;
+}
+
+button{
+    border-radius: 20px;
+    border-width: 0px;
+    width: 20vi;
+    height: 50px;
+    font-size: 2vi;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom,rgb(218, 239, 255), rgb(187, 208, 227));
+}
+
+button:hover{
+    border-radius: 20px;
+    width: 20vi;
+    height: 50px;
+    font-size: 2vi;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom,rgb(182, 196, 224), rgb(150, 184, 204));
+}
+
+input{
+    width: 20vi;
+    height: 3vh;
+    font-size: 1.5vi;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: ridge;
+}
+
+header img{
+    width: 6vi;
+    height:fit-content;
+    margin-top: -1.5vw;
+    padding-left: 20px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+input:hover, textarea:hover{
+    border-color: rgb(79, 136, 250) ;
+    background-color: rgb(234, 248, 255);
+    border-width: 0.2vw;
+    border-style:solid;
+}
+
+#start{
+    text-align: center;
+    
+}
+
+#banner{
+    width:100%;
+    height: 20vh;
+    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+    margin-top: 0px;
+}
+
+#heading{
+    font-size: 64px;
+    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+    text-shadow: 2px 2px 4px #a9a9b4; 
+}
+
+h3{
+    font-size: 28px;
+}
+
+#halfcontainer{
+    display: flex;
+}
+
+#half{
+    width: 45%;
+    margin-left: 2vw;
+    padding: 1vw;
+    padding-bottom: 2vh;
+    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+    border-radius: 3vh;
+}
+
+div#half p, div#half h3{
+    text-align: left;
+    padding-left: 1vw;
+}
+
+div#half p{
+    font-size: 3vmin;
+
+}
+
+div#half h3{
+    font-size: 5vmin;
+    margin-bottom: 2vh;
+    padding-top: 3vh;
+}
+
+div#half img{
+    width: 30vw;
+    height: auto;
+}
+
+#scroll1{
+    display: block;
+    width:90vw;
+    overflow:scroll;
+    height: 30vh;
+    margin-left: 5%;
+    overflow-x: hidden;
+}
+
+div#scroll1 div{
+    display: block;
+    height: 100%;
+    margin-left: 0%;
+}
+
+#scroll1 img{
+    height: 30vh;
+    width: 20vw;
+    padding-left: 8%;
+}
+
+::-webkit-scrollbar-button{
+    visibility: hidden;
+}
+
+h2{
+    text-align: center;
+}

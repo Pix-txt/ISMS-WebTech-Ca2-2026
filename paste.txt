@@ -1,0 +1,7 @@
+    background-color: rgb(213, 245, 127);
+    background-image: linear-gradient(to right,rgb(213, 245, 127), rgb(226, 189, 55));
+    
+    text-shadow: 2px 2px 4px #000000;
+    background-image: linear-gradient(to bottom,rgb(69, 94, 141), rgb(35, 32, 74));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
