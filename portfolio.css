@@ -1,6 +1,8 @@
+
+
 body{
     background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
-    color: #000000;
+    color: #2b2b36;
     font-family: monospace;
     margin: 0px;
     height: auto;
@@ -15,7 +17,7 @@ body{
 
 #formbody{
     background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
-    color: #000000;
+    color: #2b2b36;
     height: 150vh;
 }
 
@@ -204,7 +206,25 @@ h3{
     transition: bottom ease 1s;
 }
 
-#half:hover{
+#halfpicture{
+    width: 45%;
+    margin-left: 2vw;
+    padding: 1vw;
+    padding-bottom: 2vh;
+    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+    border-radius: 3vh;
+    position: relative;
+    bottom: 0px;
+    transition: bottom ease 1s;
+    justify-content: center;
+    display: flex;
+}
+
+#half img{
+    text-align: center;
+}
+
+#half:hover, #halfpicture:hover{
     bottom: 10px;
 }
 
@@ -233,9 +253,12 @@ h2{
 }
 
 
-div#half img{
+div#halfpicture img{
     width: 30vw;
     height: auto;
+    padding-top: 2vh;
+    border-radius: 2vw;
+    box-shadow: 2px 2px 40px #646696;
 }
 
 div#centeredtext p{
@@ -270,11 +293,10 @@ div#scroll1 div{
     display: block;
     height: 100%;
     margin-left: 0%;
+    margin-bottom: 2vh;
 }
 
 #scroll1 img{
-    height: 30vh;
-    width: 20vw;
     padding-left: 8%;
 }
 
@@ -292,7 +314,6 @@ div#scroll1 div{
     background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
     margin-right: 2%;
     align-content: center;
-    width: 25vw;
     position: relative;
     bottom: 0px;
     transition: bottom ease 1s;
@@ -304,7 +325,52 @@ div#scroll1 div{
 
 #scroll0 h3{
     text-align: center;
-    font-size: 2vw;
 }
 
 
+
+@media only screen and (max-width: 600px){
+    #scroll0{
+        display:inline-block;
+        height: 50vh;
+    }
+
+    #scroll0 div{
+        margin-bottom: 2vh;
+        height: 15vh;
+        align-self: center;
+        width: 80vw;
+        font-size: 128px;
+    }
+
+    #scroll0 h3{
+    font-size: 4vw;
+    }
+
+    div#scroll1 div{
+    display: inline-block;
+    height: 100%;
+    }
+
+
+    #scroll1 img{
+    height: 50vh;
+    width: 80vw;
+    margin-bottom: 10vh;
+}
+}
+
+@media only screen and (min-width: 601px){
+    #scroll0 div{
+        width: 25vw;
+    }
+
+    #scroll0 h3{
+    font-size: 2vw;
+    }
+
+    #scroll1 img{
+    height: 30vh;
+    width: 20vw;
+    }
+}
