@@ -170,7 +170,14 @@ input:hover, textarea:hover{
 }
 
 #heading{
-    font-size: 64px;
+    font-size: 4vw;
+    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+    text-shadow: 2px 2px 4px #a9a9b4; 
+    text-align: center;
+}
+
+#heading2{
+    font-size: 3vw;
     background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
     text-shadow: 2px 2px 4px #a9a9b4; 
     text-align: center;
@@ -182,6 +189,7 @@ h3{
 
 #halfcontainer{
     display: flex;
+    margin-bottom: 5vh;
 }
 
 #half{
