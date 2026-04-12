@@ -13,6 +13,12 @@ body{
             }
 }
 
+#formbody{
+    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+    color: #000000;
+    height: 150vh;
+}
+
 header{
     position: sticky;
     top: 0px;
@@ -24,6 +30,27 @@ header{
     text-align: center;
     margin-bottom: 0px;
     color: #000000;
+    z-index: 9;
+}
+
+header img{
+    width: 6vi;
+    height:fit-content;
+    margin-top: -1.5vw;
+    padding-left: 20px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    bottom: 0px;
+    position: relative;
+    transition: bottom ease 0.5s;
+}
+
+header a:hover{
+    color:#171b9c;
+    bottom: 0.2vh;
 }
 
 header ul{
@@ -34,25 +61,20 @@ header ul{
     margin-top: 1vw;
 }
 
-fieldset{
-    width:50%;
-    margin: auto;
-}
-
 footer{
     position: absolute;
-    bottom: -100%;
+    bottom: auto;
     width: 100%;
     display: flex;
     height: 3vw;
     background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
     text-indent: 17vw;
     text-align: center;
-    margin-top: 20px;
     color: #000000;
 }
 
 #footerform{
+    margin-top: 20px;
     bottom: -50%;
 }
 
@@ -74,11 +96,6 @@ legend{
     height: 3vh;
 }
 
-#formbody{
-    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
-    color: #000000;
-    height: 150vh;
-}
 
 fieldset{
     background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
@@ -90,7 +107,7 @@ fieldset{
     box-shadow: 3px 3px 15px #10135c;
     width: 80vmin;
     border-width: 0px;
-    margin-top: 30px;
+    margin: auto;
 }
 
 textarea{
@@ -109,6 +126,9 @@ button{
     font-size: 2vi;
     font-weight: bolder;
     background-image: linear-gradient(to bottom,rgb(218, 239, 255), rgb(187, 208, 227));
+    bottom: 0px;
+    position: relative;
+    transition: bottom ease 0.8s;
 }
 
 button:hover{
@@ -118,6 +138,7 @@ button:hover{
     font-size: 2vi;
     font-weight: bolder;
     background-image: linear-gradient(to bottom,rgb(182, 196, 224), rgb(150, 184, 204));
+    bottom: 0.3vh;
 }
 
 input{
@@ -127,18 +148,6 @@ input{
     border-radius: 10px;
     border-color: aliceblue;
     border-style: ridge;
-}
-
-header img{
-    width: 6vi;
-    height:fit-content;
-    margin-top: -1.5vw;
-    padding-left: 20px;
-}
-
-header a{
-    color: black;
-    text-decoration: none;
 }
 
 input:hover, textarea:hover{
@@ -164,6 +173,7 @@ input:hover, textarea:hover{
     font-size: 64px;
     background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
     text-shadow: 2px 2px 4px #a9a9b4; 
+    text-align: center;
 }
 
 h3{
@@ -181,6 +191,13 @@ h3{
     padding-bottom: 2vh;
     background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
     border-radius: 3vh;
+    position: relative;
+    bottom: 0px;
+    transition: bottom ease 1s;
+}
+
+#half:hover{
+    bottom: 10px;
 }
 
 div#half p, div#half h3{
@@ -199,9 +216,37 @@ div#half h3{
     padding-top: 3vh;
 }
 
+h2{
+    text-align: center;
+    font-size: 5vmin;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+}
+
+
 div#half img{
     width: 30vw;
     height: auto;
+}
+
+div#centeredtext p{
+    font-size: 3vmin;
+    line-height: 70%;
+}
+
+p#centeredtext{
+    text-align: center;
+    font-size: 3vmin;
+}
+
+div#centeredtext{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div#centeredimage{
+    text-align: center;
 }
 
 #scroll1{
@@ -225,12 +270,33 @@ div#scroll1 div{
     padding-left: 8%;
 }
 
-::-webkit-scrollbar-button{
-    visibility: hidden;
+#scroll0{
+    display: flex;
+    width:80vw;
+    height: 20vh;
+    text-indent: 0vw;
+    margin-left: 10%;
+    align-self: center;
+    margin-bottom: 4vh;
 }
 
-h2{
-    text-align: center;
-    font-size: 4vmin;
-    padding-top: 1vh;
+#scroll0 div{
+    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+    margin-right: 2%;
+    align-content: center;
+    width: 25vw;
+    position: relative;
+    bottom: 0px;
+    transition: bottom ease 1s;
 }
+
+#scroll0 div:hover{
+    bottom: 10px;
+}
+
+#scroll0 h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+
