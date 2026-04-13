@@ -8,3 +8,5 @@ Simple website with 4 web pages which are linked together styled with css
 3 page in progress
 
 no pages not fully styled yet
+
+*change all alt text and add project descriptions
