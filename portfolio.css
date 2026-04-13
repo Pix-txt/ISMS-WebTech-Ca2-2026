@@ -173,17 +173,13 @@ input:hover, textarea:hover{
     text-align: center;
 }
 
-h3{
-    font-size: 28px;
-}
+
 
 #halfcontainer{
-    display: flex;
     margin-bottom: 5vh;
 }
 
 #half{
-    width: 45%;
     margin-left: 2vw;
     padding: 1vw;
     padding-bottom: 2vh;
@@ -195,7 +191,6 @@ h3{
 }
 
 #halfpicture{
-    width: 45%;
     margin-left: 2vw;
     padding: 1vw;
     padding-bottom: 2vh;
@@ -242,7 +237,6 @@ h2{
 
 
 div#halfpicture img{
-    width: 30vw;
     height: auto;
     padding-top: 2vh;
     border-radius: 2vw;
@@ -363,7 +357,7 @@ div#leftalign p, div#leftalign h3{
     }
 
     #scroll1 img{
-    height: 50vh;
+    height: 30vh;
     width: 80vw;
     margin-bottom: 10vh;
     }
@@ -381,8 +375,42 @@ div#leftalign p, div#leftalign h3{
     #footerform{
     margin-top: 20px;
     bottom: 0%;
-}
-    
+}   
+
+    #halfcontainer{
+        display:inline-block;
+        margin-left: 10vw;
+    }  
+
+    #half{
+        width: 80%;
+        margin-bottom: 2vh;
+    }
+
+    #halfpicture{
+        width: 80%;
+        margin-bottom: 2vh;
+    }
+
+    div#halfpicture img{
+    width: 50vw;
+    }
+
+    div#half p, div#half h3{
+    text-align: center;
+    }
+
+    div#half h3{
+        font-size: 7vmin;
+    }
+
+    #heading2{
+        font-size: 6vw;
+    }
+
+    #heading{
+        font-size: 7vw;
+    }
     
 }
 
@@ -417,6 +445,22 @@ div#leftalign p, div#leftalign h3{
     #footerform{
     margin-top: 20px;
     bottom: -50%;
-}
+    }
+
+    #halfcontainer{
+        display: flex;
+    }
+
+    #half{
+        width: 45%;
+    }
+
+    #halfpicture{
+        width: 45%;
+    }
+
+    div#halfpicture img{
+    width: 30vw;
+    }
 
 }
