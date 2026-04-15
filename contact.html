@@ -29,7 +29,7 @@
 
                     <legend>Enter your contact information</legend>
 
-                    <form>
+                    <form id="UserInfo">
 
                         <label for="Name">Enter your name:</label>
                         <input type="text" id="Name" name="Name" required placeholder="First and Last name"><br><br>
@@ -53,7 +53,7 @@
                         <label for ='Describe'>Describe your issue</label>
                         <textarea placeholder="Describe your issue" required id="Describe"></textarea><br><br>
 
-                        <button type="submit">Submit</button>
+                        <button type="submit" id="sumbition">Submit</button>
                     </form>
                 </fieldset>
 
@@ -68,6 +68,17 @@
                 <li>Phone Number: 09055557558</li>
             </ul>
         </footer>
+
+
+        <script>
+            btn = document.getElementById('sumbition');
+
+            btn.onclick = function () {
+                    names = document.getElementById('UserInfo').elements[0].value;
+                    alert('Thank you '+names+'. Your response has been sumbitted');
+            }
+            
+        </script>
     </body>
 
 </html>

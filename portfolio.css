@@ -203,9 +203,7 @@ input:hover, textarea:hover{
     display: flex;
 }
 
-#half img{
-    text-align: center;
-}
+
 
 #half:hover, #halfpicture:hover{
     bottom: 10px;
@@ -264,7 +262,7 @@ div#centeredtext p{
     line-height: 70%;
 }
 
-p#centeredtext{
+#centeredtext{
     text-align: center;
     font-size: 3vmin;
 }
@@ -276,6 +274,24 @@ div#centeredtext{
 
 div#centeredimage{
     text-align: center;
+    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    width: 45vw;
+    justify-self: center;
+    border-radius: 2vw;
+    bottom: 0px;
+    position: relative;
+    transition: bottom ease 1s;
+    font-weight: bold;
+}
+
+div#centeredimage:hover{
+    bottom:10px
+}
+
+div#centeredimage p{
+    line-height: 3vh;
 }
 
 #scroll1{
@@ -315,6 +331,7 @@ div#scroll1 div{
     position: relative;
     bottom: 0px;
     transition: bottom ease 1s;
+    border-radius: 2vw;
 }
 
 #scroll0 div:hover{
@@ -327,6 +344,10 @@ div#scroll1 div{
 
 div#leftalign p, div#leftalign h3{
     text-align: right;
+}
+
+a{
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px){
@@ -448,6 +469,10 @@ div#leftalign p, div#leftalign h3{
     #formfooter{
         bottom: 0px;
     }
+
+    div#centeredimage{
+        width: 80vw;
+    }
     
 }
 
@@ -510,6 +535,67 @@ div#leftalign p, div#leftalign h3{
 
     #formfooter{
         bottom: -50%;
+    }
+
+}
+
+
+@media (prefers-color-scheme: dark){
+    body{
+        color: rgb(207, 219, 231);
+        background-image: linear-gradient(to bottom,rgb(13, 1, 22), rgb(4, 3, 61));
+    }
+
+    header, footer{
+        background-image: linear-gradient(to bottom,rgb(21, 4, 35), rgb(4, 3, 61));
+    }
+
+    header a, footer ul{
+        color: rgb(176, 187, 198);
+    }
+
+    header a:hover, a{
+        color: rgb(159, 19, 190);
+    }
+
+    #banner{
+        background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
+    }
+
+    #heading, #heading2, h2{
+        background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(102, 29, 102), rgb(242, 237, 105, 0));
+        text-shadow: 2px 2px 4px #aeaebb; 
+    }
+
+    h3:hover,h2:hover,h1:hover,p:hover{
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    fieldset{
+        background-image: linear-gradient(to bottom,rgb(42, 27, 37),rgb(21, 18, 58));
+        box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    }
+
+    legend{
+        background-color: rgb(28, 6, 18);
+    }
+
+    input, textarea{
+        background-color: #c4c4df;
+        color: #2b2b36;
+    }
+
+    input:hover, textarea:hover{
+        background-color: #a1a2c8;
+    }
+
+    #scroll0 div, div#centeredimage, #halfpicture, #half{
+        background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
+    }
+
+    div#halfpicture img{
+        box-shadow: 1px 1px 100px rgb(57, 57, 106);
     }
 
 }

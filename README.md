@@ -3,10 +3,10 @@ Web technologies CA
 
 Simple website with 4 web pages which are linked together styled with css
 
-(2/4) pages fully completed
+(3/4) pages fully completed
 
-2 pages in progress
+1 pages in progress (missing picture)
 
 no pages not fully styled yet
 
-*change all alt text and add project descriptions
+*Fix button onclick
