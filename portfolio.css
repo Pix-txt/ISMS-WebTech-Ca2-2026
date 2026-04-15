@@ -459,12 +459,12 @@ body{
             margin-bottom: 2vh;
         }
 
-        #halfpicture{
+        #halfpicture, #halfpicture2{
             width: 80%;
             margin-bottom: 2vh;
         }
 
-        div#halfpicture img{
+        div#halfpicture img, div#halfpicture2 img{
             width: 50vw;
         }
 
@@ -518,6 +518,10 @@ body{
 
         div#centeredimage{
             width: 80vw;
+        }
+
+        div#centeredtext p, p#centeredtext{
+            line-height: 3vh;
         }
     
 }
