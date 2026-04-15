@@ -1,5 +1,3 @@
-
-
 body{
     background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
     color: #2b2b36;
@@ -16,586 +14,649 @@ body{
 }
 
 
+/*Header Design*/
 
-
-header{
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    display: flex;
-    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
-    text-indent: 11vw;
-    text-align: center;
-    margin-bottom: 0px;
-    color: #000000;
-    z-index: 9;
-}
-
-header img{
-    width: 6vi;
-    height:fit-content;
-    margin-top: -1.5vw;
-    padding-left: 20px;
-}
-
-header a{
-    color: black;
-    text-decoration: none;
-    bottom: 0px;
-    position: relative;
-    transition: bottom ease 0.5s;
-}
-
-header a:hover{
-    color:#171b9c;
-    bottom: 0.2vh;
-}
-
-header ul{
-    font-size: 1vi;
-    font-weight: bolder;
-    display: flex;
-    list-style: none;
-    margin-top: 1vw;
-}
-
-footer{
-    position: absolute;
-    bottom: auto;
-    width: 100%;
-    display: flex;
-    height: 3vw;
-    background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
-    text-indent: 17vw;
-    text-align: center;
-    color: #000000;
-}
-
-footer ul{
-    font-size: 1vi;
-    font-weight: bolder;
-    display: flex;
-    list-style: none;
-}
-
-legend{
-    font-size: 2vmax;
-    background-color:  rgb(200, 213, 236);
-    font-weight: bolder;
-    border-radius: 200vw;
-    width: 100%;
-    padding-top: 1vh;
-    padding-bottom: 2vh;
-    height: 3vh;
-}
-
-
-fieldset{
-    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
-    text-align: center;
-    height: auto;
-    font-size: 2vmax;
-    border-radius: 2vw;
-    box-shadow: 3px 3px 15px #10135c;
-    width: 80vmin;
-    border-width: 0px;
-    margin: auto;
-}
-
-textarea{
-    width: 50vi;
-    height: 10vw;
-    font-size: 1.5vi;
-    border-radius: 20px;
-    padding: 20PX;
-}
-
-button{
-    border-radius: 20px;
-    border-width: 0px;
-    width: 20vi;
-    height: 50px;
-    font-size: 2vi;
-    font-weight: bolder;
-    background-image: linear-gradient(to bottom,rgb(218, 239, 255), rgb(187, 208, 227));
-    bottom: 0px;
-    position: relative;
-    transition: bottom ease 0.8s;
-}
-
-button:hover{
-    border-radius: 20px;
-    width: 20vi;
-    height: 50px;
-    font-size: 2vi;
-    font-weight: bolder;
-    background-image: linear-gradient(to bottom,rgb(182, 196, 224), rgb(150, 184, 204));
-    bottom: 0.3vh;
-}
-
-input{
-    font-size: 1.5vi;
-    border-radius: 10px;
-    border-color: aliceblue;
-    border-style: ridge;
-}
-
-input:hover, textarea:hover{
-    border-color: rgb(79, 136, 250) ;
-    background-color: rgb(234, 248, 255);
-    border-width: 0.2vw;
-    border-style:solid;
-}
-
-#start{
-    text-align: center;
-    
-}
-
-#banner{
-    width:100%;
-    height: 20vh;
-    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
-    margin-top: 0px;
-}
-
-#heading{
-    font-size: 4vw;
-    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
-    text-shadow: 2px 2px 4px #a9a9b4; 
-    text-align: center;
-}
-
-#heading2{
-    font-size: 3vw;
-    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
-    text-shadow: 2px 2px 4px #a9a9b4; 
-    text-align: center;
-}
-
-
-
-#halfcontainer{
-    margin-bottom: 5vh;
-}
-
-#half{
-    margin-left: 2vw;
-    padding: 1vw;
-    padding-bottom: 2vh;
-    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
-    border-radius: 3vh;
-    position: relative;
-    bottom: 0px;
-    transition: bottom ease 1s;
-}
-
-#halfpicture{
-    margin-left: 2vw;
-    padding: 1vw;
-    padding-bottom: 2vh;
-    background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
-    border-radius: 3vh;
-    position: relative;
-    bottom: 0px;
-    transition: bottom ease 1s;
-    justify-content: center;
-    display: flex;
-}
-
-
-
-#half:hover, #halfpicture:hover{
-    bottom: 10px;
-}
-
-div#half p, div#half h3{
-    text-align: left;
-    padding-left: 1vw;
-}
-
-div#half p{
-    font-size: 3vmin;
-
-}
-
-div#half h3{
-    font-size: 5vmin;
-    margin-bottom: 2vh;
-    padding-top: 3vh;
-}
-
-h2{
-    text-align: center;
-    font-size: 5vmin;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
-}
-
-
-div#halfpicture img{
-    height: auto;
-    padding-top: 2vh;
-    border-radius: 2vw;
-    box-shadow: 2px 2px 40px #646696;
-}
-
-img{
-    position: relative;
-    bottom: 0px;
-    transition: bottom ease 1s;
-}
-
-img:hover{
-    bottom: 5px;
-    opacity: 0.8;
-}
-
-h3:hover,h2:hover,h1:hover,p:hover{
-    color: #000000;
-    background-color: rgb(255, 255, 255, 0.1);
-}
-
-div#centeredtext p{
-    font-size: 3vmin;
-    line-height: 70%;
-}
-
-#centeredtext{
-    text-align: center;
-    font-size: 3vmin;
-}
-
-div#centeredtext{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-div#centeredimage{
-    text-align: center;
-    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
-    padding-bottom: 2vh;
-    padding-top: 2vh;
-    width: 45vw;
-    justify-self: center;
-    border-radius: 2vw;
-    bottom: 0px;
-    position: relative;
-    transition: bottom ease 1s;
-    font-weight: bold;
-}
-
-div#centeredimage:hover{
-    bottom:10px
-}
-
-div#centeredimage p{
-    line-height: 3vh;
-}
-
-#scroll1{
-    display: block;
-    width:90vw;
-    overflow:scroll;
-    height: 30vh;
-    margin-left: 5%;
-    overflow-x: hidden;
-}
-
-div#scroll1 div{
-    display: block;
-    height: 100%;
-    margin-left: 0%;
-    margin-bottom: 2vh;
-}
-
-#scroll1 img{
-    padding-left: 8%;
-}
-
-#scroll0{
-    display: flex;
-    width:80vw;
-    height: 20vh;
-    text-indent: 0vw;
-    margin-left: 10%;
-    align-self: center;
-    margin-bottom: 4vh;
-}
-
-#scroll0 div{
-    background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
-    margin-right: 2%;
-    align-content: center;
-    position: relative;
-    bottom: 0px;
-    transition: bottom ease 1s;
-    border-radius: 2vw;
-}
-
-#scroll0 div:hover{
-    bottom: 10px;
-}
-
-#scroll0 h3{
-    text-align: center;
-}
-
-div#leftalign p, div#leftalign h3{
-    text-align: right;
-}
-
-a{
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 600px){
-    #scroll0{
-        display:inline-block;
-        height: 50vh;
-    }
-
-    #scroll0 div{
-        margin-bottom: 2vh;
-        height: 15vh;
-        align-self: center;
-        width: 80vw;
-        font-size: 128px;
-    }
-
-    #scroll0 h3{
-    font-size: 4vw;
-    }
-
-    div#scroll1 div{
-    display: inline-block;
-    height: 100%;
-    }
-
-    fieldset{
-        line-height: 2vh;
-    }
-
-    #scroll1 img{
-    height: 30vh;
-    width: 80vw;
-    margin-bottom: 10vh;
-    }
-
-    input{
-        width: 15vi;
-        height: 2vh;
-
-    }
-
-    #formbody{
-    height: 100vh;
-    }
-
-    #footerform{
-    margin-top: 20px;
-    bottom: 0%;
-}   
-
-    #halfcontainer{
-        display:inline-block;
-        margin-left: 10vw;
-    }  
-
-    #half{
-        width: 80%;
-        margin-bottom: 2vh;
-    }
-
-    #halfpicture{
-        width: 80%;
-        margin-bottom: 2vh;
-    }
-
-    div#halfpicture img{
-    width: 50vw;
-    }
-
-    div#half p, div#half h3{
-    text-align: center;
-    }
-
-    div#half h3{
-        font-size: 7vmin;
-    }
-
-    #heading2{
-        font-size: 6vw;
-    }
-
-    #heading{
-        font-size: 7vw;
-    }
-
-    textarea{
-        font-size: 1vmax;
-        padding: 2vmin;
-    }
 
     header{
-        height: 3vh;
-        text-indent: 6vw;
-    }
-
-    header ul{
-        font-size: 1.3vh;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+        text-indent: 11vw;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #000000;
+        z-index: 9;
     }
 
     header img{
-        width: 5vh;
-        margin-right: -5%;
+        width: 6vi;
+        height:fit-content;
+        margin-top: -1.5vw;
+        padding-left: 20px;
     }
 
+    header a{
+        color: black;
+        text-decoration: none;
+        bottom: 0px;
+        position: relative;
+        transition: bottom ease 0.5s;
+    }
+
+    header a:hover{
+        color:#171b9c;
+        bottom: 0.2vh;
+    }
+
+    header ul{
+        font-size: 1vi;
+        font-weight: bolder;
+        display: flex;
+        list-style: none;
+        margin-top: 1vw;
+    }
+
+
+/*Footer Design*/
+
+
     footer{
-        height: 3vh;
-        text-indent: 5vw;
+        position: absolute;
+        bottom: auto;
+        width: 100%;
+        display: flex;
+        height: 3vw;
+        background-image: linear-gradient(to bottom,rgb(241, 246, 255), rgb(145, 205, 254));
+        text-indent: 17vw;
+        text-align: center;
+        color: #000000;
     }
 
     footer ul{
-        font-size: 1.3vh;
-        margin-left: -5%;
-    }
-
-    #formbody{
-        height: 100vh;
-    }
-
-    #formfooter{
-        bottom: 0px;
-    }
-
-    div#centeredimage{
-        width: 80vw;
-    }
-    
-}
-
-@media only screen and (min-width: 601px){
-    #scroll0 div{
-        width: 25vw;
-    }
-
-    #scroll0 h3{
-    font-size: 2vw;
-    }
-
-    #scroll1 img{
-    height: 30vh;
-    width: 20vw;
-    }
-
-    fieldset{
-        line-height: 5vh;
-    }
-
-    input{
-        width: 20vi;
-        height: 3vh;
-
-    }
-
-    #formbody{
-    height: 150vh;
-    }
-
-    #footerform{
-    margin-top: 20px;
-    bottom: -50%;
-    }
-
-    #halfcontainer{
+        font-size: 1vi;
+        font-weight: bolder;
         display: flex;
+        list-style: none;
     }
 
-    #half{
-        width: 45%;
-    }
 
-    #halfpicture{
-        width: 45%;
-    }
+/*Form Design*/
 
-    div#halfpicture img{
-    width: 30vw;
-    }
-
-    header{
-        height: 3vw;
-    }
-
-    #formbody{
-        height: 150vh;
-    }
-
-    #formfooter{
-        bottom: -50%;
-    }
-
-}
-
-
-@media (prefers-color-scheme: dark){
-    body{
-        color: rgb(207, 219, 231);
-        background-image: linear-gradient(to bottom,rgb(13, 1, 22), rgb(4, 3, 61));
-    }
-
-    header, footer{
-        background-image: linear-gradient(to bottom,rgb(21, 4, 35), rgb(4, 3, 61));
-    }
-
-    header a, footer ul{
-        color: rgb(176, 187, 198);
-    }
-
-    header a:hover, a{
-        color: rgb(159, 19, 190);
-    }
-
-    #banner{
-        background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
-    }
-
-    #heading, #heading2, h2{
-        background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(102, 29, 102), rgb(242, 237, 105, 0));
-        text-shadow: 2px 2px 4px #aeaebb; 
-    }
-
-    h3:hover,h2:hover,h1:hover,p:hover{
-        color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.1);
-    }
 
     fieldset{
-        background-image: linear-gradient(to bottom,rgb(42, 27, 37),rgb(21, 18, 58));
-        box-shadow: 1px 1px 15px rgb(0, 0, 0);
+        background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+        text-align: center;
+        height: auto;
+        font-size: 2vmax;
+        border-radius: 2vw;
+        box-shadow: 3px 3px 15px #10135c;
+        width: 80vmin;
+        border-width: 0px;
+        margin: auto;
     }
 
     legend{
-        background-color: rgb(28, 6, 18);
+        font-size: 2vmax;
+        background-color:  rgb(200, 213, 236);
+        font-weight: bolder;
+        border-radius: 200vw;
+        width: 100%;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+        height: 3vh;
     }
 
-    input, textarea{
-        background-color: #c4c4df;
-        color: #2b2b36;
+
+    textarea{
+        width: 50vi;
+        height: 10vw;
+        font-size: 1.5vi;
+        border-radius: 20px;
+        padding: 20PX;
+    }
+
+    input{
+        font-size: 1.5vi;
+        border-radius: 10px;
+        border-color: aliceblue;
+        border-style: ridge;
     }
 
     input:hover, textarea:hover{
-        background-color: #a1a2c8;
+        border-color: rgb(79, 136, 250) ;
+        background-color: rgb(234, 248, 255);
+        border-width: 0.2vw;
+        border-style:solid;
     }
 
-    #scroll0 div, div#centeredimage, #halfpicture, #half{
-        background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
+
+    button{
+        border-radius: 20px;
+        border-width: 0px;
+        width: 20vi;
+        height: 50px;
+        font-size: 2vi;
+        font-weight: bolder;
+        background-image: linear-gradient(to bottom,rgb(218, 239, 255), rgb(187, 208, 227));
+        bottom: 0px;
+        position: relative;
+        transition: bottom ease 0.8s;
+    }
+
+    button:hover{
+        border-radius: 20px;
+        width: 20vi;
+        height: 50px;
+        font-size: 2vi;
+        font-weight: bolder;
+        background-image: linear-gradient(to bottom,rgb(182, 196, 224), rgb(150, 184, 204));
+        bottom: 0.3vh;
+    }
+
+
+/*Main Body Design*/
+
+
+    #start{
+        text-align: center;    
+    }
+
+    #banner{
+        width:100%;
+        height: 20vh;
+        background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+        margin-top: 0px;
+    }
+
+    #heading{
+        font-size: 4vw;
+        background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+        text-shadow: 2px 2px 4px #a9a9b4; 
+        text-align: center;
+    }
+
+    #heading2{
+        font-size: 3vw;
+        background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+        text-shadow: 2px 2px 4px #a9a9b4; 
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 5vmin;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(250, 253, 255), rgb(242, 237, 105, 0));
+    }
+
+    img{
+        position: relative;
+        bottom: 0px;
+        transition: bottom ease 1s;
+    }
+
+    img:hover{
+        bottom: 5px;
+        opacity: 0.8;
+    }
+
+    h3:hover,h2:hover,h1:hover,p:hover{
+        color: #000000;
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    /*Style for flexbox with two objects*/
+
+
+    #halfcontainer{
+        margin-bottom: 5vh;
+    }
+
+    #half{
+        margin-left: 2vw;
+        padding: 1vw;
+        padding-bottom: 2vh;
+        background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+        border-radius: 3vh;
+        position: relative;
+        bottom: 0px;
+        transition: bottom ease 1s;
+    }
+
+    #halfpicture, #halfpicture2{
+        margin-left: 2vw;
+        padding: 1vw;
+        padding-bottom: 2vh;
+        background-image: linear-gradient(to bottom,rgb(235, 242, 255), rgb(255, 255, 255));
+        border-radius: 3vh;
+        position: relative;
+        bottom: 0px;
+        transition: bottom ease 1s;
+        justify-content: center;
+        display: flex;
+    }
+
+    div#halfpicture2 img{
+        height: auto;
+        padding-top: 2vh;
+        border-radius: 2vw;;
     }
 
     div#halfpicture img{
-        box-shadow: 1px 1px 100px rgb(57, 57, 106);
+        height: auto;
+        padding-top: 2vh;
+        border-radius: 2vw;
+        box-shadow: 2px 2px 40px #646696;
     }
+
+    #half:hover, #halfpicture:hover, #halfpicture2:hover{
+        bottom: 10px;
+    }
+
+    div#half p, div#half h3{
+        text-align: left;
+        padding-left: 1vw;
+    }
+
+    div#half p{
+        font-size: 3vmin;
+    }
+
+    div#half h3{
+        font-size: 5vmin;
+        margin-bottom: 2vh;
+        padding-top: 3vh;
+    }
+
+    div#leftalign p, div#leftalign h3{
+        text-align: right;
+    }
+
+
+/*Style for Centered Text*/
+
+
+    div#centeredtext p{
+        font-size: 3vmin;
+        line-height: 70%;
+    }
+
+    #centeredtext{
+        text-align: center;
+        font-size: 3vmin;
+    }
+
+    div#centeredtext{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+
+/*Style for Centered Object*/
+
+
+    div#centeredimage{
+        text-align: center;
+        background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        width: 45vw;
+        justify-self: center;
+        border-radius: 2vw;
+        bottom: 0px;
+        position: relative;
+        transition: bottom ease 1s;
+        font-weight: bold;
+    }
+
+    div#centeredimage:hover{
+        bottom:10px
+    }
+
+    div#centeredimage p{
+        line-height: 3vh;
+    }
+
+
+/*Style for an object with a scrollable overflow*/
+
+
+    #scroll1{
+        display: block;
+        width:90vw;
+        overflow:scroll;
+        height: 30vh;
+        margin-left: 5%;
+        overflow-x: hidden;
+    }
+
+    div#scroll1 div{
+        display: block;
+        height: 100%;
+        margin-left: 0%;
+        margin-bottom: 2vh;
+    }
+
+    #scroll1 img{
+        padding-left: 8%;
+    }
+
+
+/*Style for an section with three objects*/
+
+
+    #scroll0{
+        display: flex;
+        width:80vw;
+        height: 20vh;
+        text-indent: 0vw;
+        margin-left: 10%;
+        align-self: center;
+        margin-bottom: 4vh;
+    }
+
+    #scroll0 div{
+        background-image: linear-gradient(to bottom,rgb(242, 237, 105), rgb(134, 178, 204));
+        margin-right: 2%;
+        align-content: center;
+        position: relative;
+        bottom: 0px;
+        transition: bottom ease 1s;
+        border-radius: 2vw;
+    }
+
+    #scroll0 div:hover{
+        bottom: 10px;
+    }
+
+    #scroll0 h3{
+        text-align: center;
+    }
+
+
+
+
+
+
+/*media query for phone devices*/
+
+
+@media only screen and (max-width: 600px){
+
+    /*Media Query for Scroll0*/
+
+        #scroll0{
+            display:inline-block;
+            height: 50vh;
+        }
+
+        #scroll0 div{
+            margin-bottom: 2vh;
+            height: 15vh;
+            align-self: center;
+            width: 80vw;
+            font-size: 128px;
+        }
+
+        #scroll0 h3{
+            font-size: 4vw;
+        }
+
+    /*Media Query for Scroll1*/
+
+        div#scroll1 div{
+            display: inline-block;
+            height: 100%;
+        }
+
+        #scroll1 img{
+            height: 30vh;
+            width: 80vw;
+            margin-bottom: 10vh;
+        }
+
+    /*Media Query for Form*/
+
+        fieldset{
+            line-height: 2vh;
+        }
+
+        input{
+            width: 15vi;
+            height: 2vh;
+        }
+
+        #formbody{
+            height: 100vh;
+        }
+
+        #formfooter{
+            margin-top: 20px;
+            bottom: 0%;
+        }   
+
+        textarea{
+            font-size: 1vmax;
+            padding: 2vmin;
+        }
+
+    /*Media Query for Half*/
+
+        #halfcontainer{
+            display:inline-block;
+            margin-left: 10vw;
+        }  
+
+        #half{
+            width: 80%;
+            margin-bottom: 2vh;
+        }
+
+        #halfpicture{
+            width: 80%;
+            margin-bottom: 2vh;
+        }
+
+        div#halfpicture img{
+            width: 50vw;
+        }
+
+        div#half p, div#half h3{
+            text-align: center;
+        }
+
+        div#half h3{
+            font-size: 7vmin;
+        }
+
+    /*Media Query for text*/
+
+        #heading2{
+            font-size: 6vw;
+        }
+
+        #heading{
+            font-size: 7vw;
+        }
+
+    /*Media Query for Header*/
+
+        header{
+            height: 3vh;
+            text-indent: 6vw;
+        }
+
+        header ul{
+            font-size: 1.3vh;
+        }
+
+        header img{
+            width: 5vh;
+            margin-right: -5%;
+        }
+
+    /*Media Query for Footer*/
+
+        footer{
+            height: 3vh;
+            text-indent: 5vw;
+        }
+
+        footer ul{
+            font-size: 1.3vh;
+            margin-left: -5%;
+        }
+    
+    /*Media Query for Image*/
+
+        div#centeredimage{
+            width: 80vw;
+        }
+    
+}
+
+
+/*media queries for tablet and laptop devices*/
+
+
+@media only screen and (min-width: 601px){
+
+    /*Media Query for Scroll0*/
+
+        #scroll0 div{
+            width: 25vw;
+        }
+
+        #scroll0 h3{
+        font-size: 2vw;
+        }
+
+        #scroll1 img{
+        height: 30vh;
+        width: 20vw;
+        }
+
+    /*Media Query for Form*/
+
+        fieldset{
+            line-height: 5vh;
+        }
+
+        input{
+            width: 20vi;
+            height: 3vh;
+        }
+
+        #formbody{
+            height: 150vh;
+        }
+
+        #formfooter{
+            margin-top: 20px;
+            bottom: -50%;
+        }
+
+    /*Media Query for Half*/
+
+        #halfcontainer{
+            display: flex;
+        }
+
+        #half{
+            width: 45%;
+        }
+
+        #halfpicture, #halfpicture2{
+            width: 45%;
+        }
+
+        div#halfpicture img, div#halfpicture2 img{
+        width: 30vw;
+        }
+
+    /*Media Query for header*/
+
+        header{
+            height: 3vw;
+        }
+
+ 
+}
+
+
+/*media queries for dark mode devices*/
+
+
+@media (prefers-color-scheme: dark){
+
+    /*Media Query for body, header and footer*/
+
+        body{
+            color: rgb(207, 219, 231);
+            background-image: linear-gradient(to bottom,rgb(13, 1, 22), rgb(4, 3, 61));
+        }
+
+        header, footer{
+            background-image: linear-gradient(to bottom,rgb(21, 4, 35), rgb(4, 3, 61));
+        }
+
+        header a, footer ul{
+            color: rgb(176, 187, 198);
+        }
+
+        header a:hover, a{
+            color: rgb(159, 19, 190);
+        }
+
+    /*Media Query for form*/
+
+        fieldset{
+            background-image: linear-gradient(to bottom,rgb(42, 27, 37),rgb(21, 18, 58));
+            box-shadow: 1px 1px 15px rgb(0, 0, 0);
+        }
+
+        legend{
+            background-color: rgb(28, 6, 18);
+        }
+
+        input, textarea{
+            background-color: #c4c4df;
+            color: #2b2b36;
+        }
+
+        input:hover, textarea:hover{
+            background-color: #a1a2c8;
+        }
+
+    /*Media Query for text and body elements*/
+
+        #banner{
+            background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
+        }
+
+        #heading, #heading2, h2{
+            background-image: linear-gradient(to left,rgb(242, 237, 105, 0), rgb(102, 29, 102), rgb(242, 237, 105, 0));
+            text-shadow: 2px 2px 4px #aeaebb; 
+        }
+
+        h3:hover,h2:hover,h1:hover,p:hover{
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.1);
+        } 
+
+        #scroll0 div, div#centeredimage, #halfpicture, #half, #halfpicture2{
+            background-image: linear-gradient(to bottom,rgb(145, 39, 103), rgb(18, 27, 85));
+        }
+
+        div#halfpicture img{
+            box-shadow: 1px 1px 100px rgb(57, 57, 106);
+        }
 
 }
