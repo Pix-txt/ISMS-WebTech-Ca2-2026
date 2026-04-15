@@ -8,5 +8,3 @@ Simple website with 4 web pages which are linked together styled with css
 no pages in progress
 
 no pages not fully styled yet
-
-*Fix button onclick
