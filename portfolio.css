@@ -92,7 +92,6 @@ body{
         font-size: 2vmax;
         border-radius: 2vw;
         box-shadow: 3px 3px 15px #10135c;
-        width: 80vmin;
         border-width: 0px;
         margin: auto;
     }
@@ -388,7 +387,7 @@ body{
 /*media query for phone devices*/
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 
     /*Media Query for Scroll0*/
 
@@ -426,11 +425,14 @@ body{
 
         fieldset{
             line-height: 2vh;
+            font-size: 3vw;
+            width: 80vw;
         }
 
         input{
-            width: 15vi;
+            width: 35vw;
             height: 2vh;
+            font-size: 3vw;
         }
 
         #formbody{
@@ -443,7 +445,7 @@ body{
         }   
 
         textarea{
-            font-size: 1vmax;
+            font-size: 3vw;
             padding: 2vmin;
         }
 
@@ -490,11 +492,11 @@ body{
 
         header{
             height: 3vh;
-            text-indent: 6vw;
+            text-indent: 4vw;
         }
 
         header ul{
-            font-size: 1.3vh;
+            font-size: 2.5vw;
         }
 
         header img{
@@ -506,12 +508,14 @@ body{
 
         footer{
             height: 3vh;
-            text-indent: 5vw;
+            text-indent: 3vw;
+            width: 100vw;
+            justify-content: center;
         }
 
         footer ul{
-            font-size: 1.3vh;
-            margin-left: -5%;
+            font-size: 2.5vw;
+            margin-left: -10vw;
         }
     
     /*Media Query for Image*/
@@ -530,7 +534,7 @@ body{
 /*media queries for tablet and laptop devices*/
 
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 701px){
 
     /*Media Query for Scroll0*/
 
@@ -551,20 +555,21 @@ body{
 
         fieldset{
             line-height: 5vh;
+            width: 70vw;
         }
 
         input{
-            width: 20vi;
+            width: 35vw;
             height: 3vh;
         }
 
         #formbody{
-            height: 150vh;
+            height: 200vh;
         }
 
         #formfooter{
             margin-top: 20px;
-            bottom: -50%;
+            bottom: -100%;
         }
 
     /*Media Query for Half*/
