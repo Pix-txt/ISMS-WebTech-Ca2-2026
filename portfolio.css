@@ -426,7 +426,7 @@ body{
         fieldset{
             line-height: 2vh;
             font-size: 3vw;
-            width: 80vw;
+            width: 60vw;
         }
 
         input{
@@ -435,14 +435,23 @@ body{
             font-size: 3vw;
         }
 
+        legend{
+            font-size: 3vw;
+        }
+
         #formbody{
-            height: 100vh;
+            height: auto;
         }
 
         #formfooter{
-            margin-top: 20px;
-            bottom: 0%;
+            bottom: 0px;
+            position: relative;
         }   
+
+        #mobilepadding{
+            height: 30vh;
+            width: 2vw;
+        }
 
         textarea{
             font-size: 3vw;
@@ -491,12 +500,14 @@ body{
     /*Media Query for Header*/
 
         header{
-            height: 3vh;
+            height: 4vh;
             text-indent: 4vw;
         }
 
         header ul{
             font-size: 2.5vw;
+            margin-left: -5vw;
+            margin-top: 1.2vh;
         }
 
         header img{
@@ -507,7 +518,7 @@ body{
     /*Media Query for Footer*/
 
         footer{
-            height: 3vh;
+            height: 4vh;
             text-indent: 3vw;
             width: 100vw;
             justify-content: center;
@@ -515,7 +526,8 @@ body{
 
         footer ul{
             font-size: 2.5vw;
-            margin-left: -10vw;
+            margin-top: 0.8vh;
+            margin-left: -15vw;
         }
     
     /*Media Query for Image*/
